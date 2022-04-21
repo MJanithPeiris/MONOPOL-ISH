@@ -1,4 +1,7 @@
 #pragma once
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include <string>
 #include "Player.h"
 #include <iostream>
@@ -18,15 +21,15 @@ public:
     int getSType();
     void setSName(string name);
     string getSName();
-    // CProperties class methods
+    // CProperty class methods
     virtual void setSCost(float cost);
     virtual float getSCost();
     virtual void setSRent(float rent);
     virtual float getSRent();
     virtual void setSColourGroup(int colourGroup);
     virtual int getSColourGroup();
-    virtual void setOwnerName(string ownerName);
-    virtual string getOwnerName();
+    virtual void setSOwnerName(string ownerName);
+    virtual string getSOwnerName();
     // CGoToJail class methods
     virtual void setSFine(float fine);
     virtual float getSFine();
@@ -40,6 +43,6 @@ public:
     virtual float getPenaltyAmount();
     // display methods
     virtual void display();
-    virtual void display(string playerName);
-    virtual void display(string playerName, float playerMoney);
+    virtual void displayPayingRentDetails(string playerName);
+    virtual void displayPlayerLandsOnDetails(unique_ptr<Player>& player);
 };

@@ -144,7 +144,7 @@
     <ClCompile Include="CGoToJail.cpp" />
     <ClCompile Include="CJail.cpp" />
     <ClCompile Include="CPenalty.cpp" />
-    <ClCompile Include="CProperties.cpp" />
+    <ClCompile Include="CProperty.cpp" />
     <ClCompile Include="CSquare.cpp" />
     <ClCompile Include="CStation.cpp" />
     <ClCompile Include="ReadFile.cpp" />
@@ -157,7 +157,7 @@
     <ClInclude Include="CGoToJail.h" />
     <ClInclude Include="CJail.h" />
     <ClInclude Include="CPenalty.h" />
-    <ClInclude Include="CProperties.h" />
+    <ClInclude Include="CProperty.h" />
     <ClInclude Include="CSquare.h" />
     <ClInclude Include="CStation.h" />
     <ClInclude Include="ReadFile.h" />

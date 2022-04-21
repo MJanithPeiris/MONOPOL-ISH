@@ -1,9 +1,12 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include "ReadFile.h"
 #include "CSquare.h"
-#include "CProperties.h"
+#include "CProperty.h"
 #include "CJail.h"
 #include "CGoToJail.h"
 #include "CFreeParking.h"
@@ -17,25 +20,15 @@ using namespace std;
 FileRead::FileRead(){}
 
 // destructor
-FileRead::~FileRead()
-{
-    //for (auto& obj : squares)
-    //{
-    //    auto itr = find(begin(squares), end(squares), obj);
-    //    if (itr != squares.end())
-    //    {
-    //        squares.erase(itr); // erase the values
-    //    }
-    //}
-}
+FileRead::~FileRead(){}
 
-//  read monopoly.txt file
+//  read monopoly.txt MonopolishFile
 bool FileRead::readMonopolyTextFile()
 {
     ifstream inputFile("monopoly.txt");
     string* line = new string(" ");
 
-    if (!inputFile.is_open()) { // check whether the file is there and open
+    if (!inputFile.is_open()) { // check whether the MonopolishFile is there and open
         return true; 
     }
     else
@@ -92,40 +85,42 @@ void FileRead::createSquareObjects(vector<string> lineVector)
 {
     switch (stoi(lineVector[0])) // check the first element of the vector ( type )
     {
-    case 1: squares.push_back(make_unique<CProperties>(stoi(lineVector[0]), lineVector[1], stof(lineVector[2]), stof(lineVector[3]), stoi(lineVector[4]))); break; // type 1
-    case 2: squares.push_back(make_unique<CSquare>(stoi(lineVector[0]), lineVector[1])); break; // type 2
-    case 3: squares.push_back(make_unique<CStation>(stoi(lineVector[0]), lineVector[1], 200, 10)); break; // type 3
-    case 4: squares.push_back(make_unique<CBonus>(stoi(lineVector[0]), lineVector[1])); break; // type 4
-    case 5: squares.push_back(make_unique<CPenalty>(stoi(lineVector[0]), lineVector[1])); break; // type 5
-    case 6: squares.push_back(make_unique<CJail>(stoi(lineVector[0]), lineVector[1])); break; // type 6
-    case 7: squares.push_back(make_unique<CGoToJail>(stoi(lineVector[0]), lineVector[1],50)); break; // type 7
-    case 8: squares.push_back(make_unique<CFreeParking>(stoi(lineVector[0]), lineVector[1])); break; // type 8
+    case 1: mSquares.push_back(make_unique<CProperty>(stoi(lineVector[0]), lineVector[1], stof(lineVector[2]), stof(lineVector[3]), stoi(lineVector[4]))); break; // type 1
+    case 2: mSquares.push_back(make_unique<CSquare>(stoi(lineVector[0]), lineVector[1])); break; // type 2
+    case 3: mSquares.push_back(make_unique<CStation>(stoi(lineVector[0]), lineVector[1], 200, 10)); break; // type 3
+    case 4: mSquares.push_back(make_unique<CBonus>(stoi(lineVector[0]), lineVector[1])); break; // type 4
+    case 5: mSquares.push_back(make_unique<CPenalty>(stoi(lineVector[0]), lineVector[1])); break; // type 5
+    case 6: mSquares.push_back(make_unique<CJail>(stoi(lineVector[0]), lineVector[1])); break; // type 6
+    case 7: mSquares.push_back(make_unique<CGoToJail>(stoi(lineVector[0]), lineVector[1],50)); break; // type 7
+    case 8: mSquares.push_back(make_unique<CFreeParking>(stoi(lineVector[0]), lineVector[1])); break; // type 8
     default: cout << " Error occurs !!" << endl;
     }
 }
 
-// read the seed.txt file
+// read the seed.txt MonopolishFile
 bool FileRead::readSeedTextFile(int& seed)
 {
     ifstream inputFile("seed.txt");
-    string* line = new string(" ");
+    string line =" ";
 
-    if (!inputFile.is_open()) { // check whether the file is there and open
+    if (!inputFile.is_open()) { // check whether the MonopolishFile is there and open
         return true;
     }
 	else
     {
-        getline(inputFile, *line);
-        seed = stoi(*line);
+        getline(inputFile, line);
+        seed = stoi(line);
     }
-    delete line; // delete the pointer
     inputFile.close();
 
     return false;
 }
 
-// returns method for squares
-vector<unique_ptr<CSquare>> const& FileRead::getSquare() const
+// get square details
+void FileRead::getSquares(c_square& squares)
 {
-    return squares;
+	for (auto& square : mSquares)
+	{
+        squares.push_back(std::move(square));
+	}
 }

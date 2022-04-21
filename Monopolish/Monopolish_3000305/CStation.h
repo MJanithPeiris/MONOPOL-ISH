@@ -1,4 +1,7 @@
 #pragma once
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include "CSquare.h"
 
 class CStation : public CSquare
@@ -15,7 +18,8 @@ public:
 	float getSCost();
 	void setSRent(float rent);
 	float getSRent();
-	void setOwnerName(string ownerName);
-	string getOwnerName();
-	void display(string playerName);
+	void setSOwnerName(string ownerName);
+	string getSOwnerName();
+	void displayPayingRentDetails(string playerName);
+	void displayPlayerLandsOnDetails(unique_ptr<Player>& player);
 };

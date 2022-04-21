@@ -21,7 +21,7 @@
     <ClCompile Include="CSquare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CProperties.cpp">
+    <ClCompile Include="CProperty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
@@ -53,7 +53,7 @@
     <ClInclude Include="CSquare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CProperties.h">
+    <ClInclude Include="CProperty.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">

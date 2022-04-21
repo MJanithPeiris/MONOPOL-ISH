@@ -1,7 +1,12 @@
 #pragma once
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include <memory>
 #include <string>
+#include <vector>
 
+class CSquare;
 class FileRead;
 using namespace std;
 
@@ -30,10 +35,7 @@ public:
     bool getIsBankrupt();
     void displayCurrentBalance();
     void displayDieRollDetails(int randomNumber);
-    void displayPlayerPosition(string propertyName);
-    void displayRoundComplete();
-    void displayBuyingDetails(unique_ptr<FileRead>& file);
-    void displayPayingRentDetails(float propertyRent);
+    void displayBuyingDetails(vector<unique_ptr<CSquare>>& squares);
     void displayPropertyMortgageMessage(string propertyName);
     void displayPlayerBankruptMessage();
     void displayWinningMessage();

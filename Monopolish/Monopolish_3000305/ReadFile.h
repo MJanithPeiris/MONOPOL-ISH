@@ -1,15 +1,18 @@
 #pragma once
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include <memory>
 #include <vector>
 #include "CSquare.h"
 
 using namespace std;
+typedef vector<unique_ptr<CSquare>> c_square;
 
 class FileRead
 {
 private:
-	typedef vector<unique_ptr<CSquare>> c_square;
-	c_square squares;
+	c_square mSquares;
 	
 public:
 	FileRead();
@@ -18,5 +21,5 @@ public:
 	bool readSeedTextFile(int& seed);
 	void createSquareObjects(vector<string> lineVector);
 	vector<string> separateLine(string line);
-	vector<unique_ptr<CSquare>> const& getSquare() const;
+	void getSquares(c_square& squares);
 };

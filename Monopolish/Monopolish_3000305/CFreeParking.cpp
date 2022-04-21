@@ -1,3 +1,6 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include "CFreeParking.h"
 
 // default constructor
@@ -10,7 +13,8 @@ CFreeParking::CFreeParking(int type, string name) :CSquare(type, name){}
 CFreeParking::~CFreeParking(){}
 
 // display free parking message
-void CFreeParking::display(string playerName)
+void CFreeParking::displayPlayerLandsOnDetails(unique_ptr<Player>& player)
 {
-	cout << " Player " << playerName << " is resting " << endl;
+	cout << " Player " << player->getPlayerName() << " lands on " << sName << endl;
+	cout << " Player " << player->getPlayerName() << " is resting " << endl;
 }

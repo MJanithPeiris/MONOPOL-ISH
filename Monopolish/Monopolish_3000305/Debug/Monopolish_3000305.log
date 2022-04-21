@@ -1,3 +1,42 @@
-﻿  Player.cpp
-D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(8,20): warning C4309: 'initializing': truncation of constant value
+﻿  CBonus.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CFreeParking.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CGoToJail.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CJail.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CPenalty.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CProperty.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CSquare.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  CStation.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  Monopolish.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Monopolish.cpp(530,47): warning C4018: '<': signed/unsigned mismatch
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Monopolish.cpp(603,31): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3416,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Monopolish.cpp(54): message : see reference to function template instantiation 'std::unique_ptr<Player,std::default_delete<Player>> std::make_unique<Player,const char(&)[4],int,int,0>(const char (&)[4],int &&,int &&)' being compiled
+  Player.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+  ReadFile.cpp
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\Player.h(13,20): warning C4309: 'initializing': truncation of constant value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3416,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Monopolish_3000305\ReadFile.cpp(90): message : see reference to function template instantiation 'std::unique_ptr<CStation,std::default_delete<CStation>> std::make_unique<CStation,int,_Ty&,int,int,0>(int &&,_Ty &,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=std::string
+          ]
+  Generating Code...
   Monopolish_3000305.vcxproj -> D:\UCL\Year 02\Advanced Programing CO2402\CO2402 Assignment\Monopolish_3000305\Debug\Monopolish_3000305.exe

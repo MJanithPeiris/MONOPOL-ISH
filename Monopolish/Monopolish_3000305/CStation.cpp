@@ -1,3 +1,6 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include "CStation.h"
 
 // default constructor
@@ -39,19 +42,25 @@ float CStation::getSRent()
 }
 
 // sets the owner for the station
-void CStation::setOwnerName(string ownerName)
+void CStation::setSOwnerName(string ownerName)
 {
 	stationOwnerName = ownerName;
 }
 
 // returns the owner of the station
-string CStation::getOwnerName()
+string CStation::getSOwnerName()
 {
 	return stationOwnerName;
 }
 
 // display station message
-void CStation::display(string playerName)
+void CStation::displayPayingRentDetails(string playerName)
 {
-	cout << " Player " << playerName << " pays " << pound << stRent <<" for ticket " << endl;
+	cout << " Player " << playerName << " pays " << pound << stRent << " for ticket " << endl;
+}
+
+// display lands square details
+void CStation::displayPlayerLandsOnDetails(unique_ptr<Player>& player)
+{
+	cout << " Player " << player->getPlayerName() << " lands on " << sName << endl;
 }

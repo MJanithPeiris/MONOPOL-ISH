@@ -1,3 +1,6 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include "CGoToJail.h"
 
 // default constructor
@@ -24,9 +27,17 @@ float CGoToJail::getSFine()
 	return sFine;
 }
 
-// display go to jail message
-void CGoToJail::display(string playerName)
+// sends player to jail
+void CGoToJail::sendPlayerToJail(unique_ptr<Player>& player)
 {
-	cout << " Player " << playerName << " goes to jail " << endl;
-	cout << " Player " << playerName << " pays " << pound << "50 " << endl;
+	player->setPlayerPosition(7); // change player position to jail
+}
+
+// display go to jail message
+void CGoToJail::displayPlayerLandsOnDetails(unique_ptr<Player>& player)
+{
+	cout << " Player " << player->getPlayerName() << " lands on " << sName << endl;
+	cout << " Player " << player->getPlayerName() << " goes to jail " << endl;
+	cout << " Player " << player->getPlayerName() << " pays " << pound << sFine << endl;
+	sendPlayerToJail(player);
 }

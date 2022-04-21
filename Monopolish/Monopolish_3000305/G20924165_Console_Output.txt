@@ -1,0 +1,1558 @@
+
+########################################
+
+ // Created by M.Janith Iresha Peiris 
+ // UClan ID : G20924165 
+ // UCL ID : 3000305
+
+ 2 - GO
+ 1 - Red Road - 60 - 5 - 0
+ 1 - Red Street - 80 - 10 - 0
+ 4 - Bonus
+ 1 - Grey Road - 100 - 15 - 1
+ 1 - Grey Street - 120 - 15 - 1
+ 6 - Jail
+ 1 - Brown Road - 140 - 20 - 2
+ 1 - Brown Street - 160 - 20 - 2
+ 3 - Railway Station
+ 1 - Orange Road - 180 - 25 - 3
+ 1 - Orange Street - 180 - 25 - 3
+ 1 - Orange Way - 200 - 25 - 3
+ 8 - Free Parking
+ 1 - Yellow Road - 220 - 30 - 4
+ 1 - Yellow Street - 240 - 30 - 4
+ 5 - Penalty
+ 1 - Green Road - 260 - 35 - 5
+ 1 - Green Street - 280 - 35 - 5
+ 7 - Go to Jail
+ 1 - Blue Road - 300 - 45 - 6
+ 1 - Blue Street - 300 - 45 - 6
+ 1 - Blue Way - 320 - 45 - 6
+ 3 - Bus Station
+ 1 - Purple Road - 400 - 50 - 7
+ 1 - Purple Street - 420 - 50 - 7
+
+ Monopoly.txt is read successfully !!
+
+ Seed value is : 5
+ Seed.txt is read successfully !!
+
+########################################
+
+ Loading Monopolish................
+
+		 WW          WW  EEEEEEEEE  LL         CCCCCC     OOOO      MM          MM        TTTTTTTTTTTT     OOOO        
+		 WW    WW    WW  EE         LL        CC        OO    OO    MMM        MMM             TT        OO    OO      
+		 WW   WWWW   WW  EE         LL       CC        OO      OO   MM MM    MM MM             TT       OO      OO     
+		 WW  WW  WW  WW  EEEEEE     LL      CCC       OOO      OOO  MM  MM  MM  MM             TT      OOO      OOO    
+		 WW WW    WW WW  EE         LL       CC        OO      OO   MM   MMMM   MM             TT       OO      OO     
+		 WWW        WWW  EE         LL        CC        OO    OO    MM    MM    MM             TT        OO    OO      
+		 WW          WW  EEEEEEEEE  LLLLLLLLL  CCCCCC     OOOO      MM          MM             TT          OOOO        
+
+ 	  MM          MM      OOOO      NN      NN      OOOO      PPPPPPP        OOOO      LL                IIIIIIIIII    SSSS    HH     HH    
+ 	  MMM        MMM    OO    OO    NNNN    NN    OO    OO    PP    PP     OO    OO    LL                    II      SS    SS  HH     HH    
+ 	  MM MM    MM MM   OO      OO   NN NN   NN   OO      OO   PP    PP    OO      OO   LL                    II      SS        HH     HH    
+ 	  MM  MM  MM  MM  OOO      OOO  NN  NN  NN  OOO      OOO  PPPPPPP    OOO      OOO  LL        |||||||     II        SSSS    HHHHHHHHH    
+ 	  MM   MMMM   MM   OO      OO   NN   NN NN   OO      OO   PP          OO      OO   LL                    II            SS  HH     HH    
+ 	  MM    MM    MM    OO    OO    NN    NNNN    OO    OO    PP           OO    OO    LL                    II      SS    SS  HH     HH    
+ 	  MM          MM      OOOO      NN      NN      OOOO      PP             OOOO      LLLLLLLLL         IIIIIIIIII    SSSSS   HH     HH    
+
+Press any key to continue . . . 
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |  Dog     |          |          |          |          |          |          |          |        
+         |      Car |          |          |          |          |          |          |          | GO TO  
+      GO | Shoe     |          |          |          |          |          |          |          | Jail   
+         |      Hat |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 1 ---- 
+ Player : Dog rolls 1
+ Player Dog lands on Red Road
+ Dog buys Red Road for œ60
+
+
+ Player : Car rolls 6
+ Player Car lands on Jail
+ Player Car is just visiting 
+
+
+ Player : Shoe rolls 3
+ Player Shoe lands on Bonus
+ Player : Shoe rolls 5
+ Receive a bequest. Gain œ200
+ Player Shoe current balance is œ1700
+
+
+ Player : Hat rolls 6
+ Player Hat lands on Jail
+ Player Hat is just visiting 
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |      Car |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |      Hat |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus | Shoe     |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |  Dog     |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1440
+ Car has œ1500
+ Shoe has œ1700
+ Hat has œ1500
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 2 ---- 
+ Player : Dog rolls 6
+ Player Dog lands on Brown Road
+ Dog buys Brown Road for œ140
+
+
+ Player : Car rolls 5
+ Player Car lands on Orange Street
+ Car buys Orange Street for œ180
+
+
+ Player : Shoe rolls 4
+ Player Shoe lands on Brown Road
+ Shoe pays 20
+
+
+ Player : Hat rolls 6
+ Player Hat lands on Orange Way
+ Hat buys Orange Way for œ200
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |  Dog     |          |          |          |          |          |          |          
+         |          |          |          |          |          |      Car |          |          | Free     
+    JAIL |          | Shoe     |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |      Hat |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1320
+ Car has œ1320
+ Shoe has œ1680
+ Hat has œ1300
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 3 ---- 
+ Player : Dog rolls 6
+ Player Dog lands on Free Parking
+ Player Dog is resting 
+
+
+ Player : Car rolls 1
+ Player Car lands on Orange Way
+ Car pays 25
+
+
+ Player : Shoe rolls 6
+ Player Shoe lands on Free Parking
+ Player Shoe is resting 
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Yellow Street
+ Hat buys Yellow Street for œ240
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |  Dog     |          
+         |          |          |          |          |          |          |      Car |          | Free     
+    JAIL |          |          |          |          |          |          |          | Shoe     | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |      Hat |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1320
+ Car has œ1295
+ Shoe has œ1680
+ Hat has œ1085
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 4 ---- 
+ Player : Dog rolls 4
+ Player Dog lands on Green Road
+ Dog buys Green Road for œ260
+
+
+ Player : Car rolls 1
+ Player Car lands on Free Parking
+ Player Car is resting 
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Yellow Road
+ Shoe buys Yellow Road for œ220
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Green Street
+ Hat buys Green Street for œ280
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |      Car | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 | Shoe     | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |  Dog     |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |      Hat |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1060
+ Car has œ1295
+ Shoe has œ1460
+ Hat has œ805
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 5 ---- 
+ Player : Dog rolls 4
+ Player Dog lands on Blue Street
+ Dog buys Blue Street for œ300
+
+
+ Player : Car rolls 3
+ Player Car lands on Penalty
+ Player : Car rolls 1
+ Buy a coffee in Starbucks. Loose œ20
+ Player Car current balance is œ1275
+
+
+ Player : Shoe rolls 3
+ Player Shoe lands on Green Road
+ Shoe pays 35
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Blue Street
+ Hat pays 45
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |      Car | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 | Shoe     | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |  Dog     |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |      Hat |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ840
+ Car has œ1275
+ Shoe has œ1425
+ Hat has œ760
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 6 ---- 
+ Player : Dog rolls 6
+ Dog passes GO and collects œ200 
+ Player Dog lands on Red Road
+
+
+ Player : Car rolls 6
+ Player Car lands on Blue Way
+ Car buys Blue Way for œ320
+
+
+ Player : Shoe rolls 5
+ Player Shoe lands on Blue Way
+ Shoe pays 45
+
+
+ Player : Hat rolls 5
+ Hat passes GO and collects œ200 
+ Player Hat lands on GO
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |  Dog     |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |      Car |          |          |          | GO TO  
+      GO |          |          |          |          | Shoe     |          |          |          | Jail   
+         |      Hat |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1040
+ Car has œ1000
+ Shoe has œ1380
+ Hat has œ960
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 7 ---- 
+ Player : Dog rolls 1
+ Player Dog lands on Red Street
+ Dog buys Red Street for œ80
+
+ Property Name : Red Road rent is increased œ5 to œ10
+ Property Name : Red Street rent is increased œ10 to œ20
+
+ Player : Car rolls 4
+ Car passes GO and collects œ200 
+ Player Car lands on GO
+
+
+ Player : Shoe rolls 5
+ Shoe passes GO and collects œ200 
+ Player Shoe lands on Red Road
+ Shoe pays 10
+
+
+ Player : Hat rolls 1
+ Player Hat lands on Red Road
+ Hat pays 10
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |  Dog     |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road | Shoe     |                                                                 |          | Street   
+         |      Hat |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |      Car |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ980
+ Car has œ1200
+ Shoe has œ1570
+ Hat has œ950
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 8 ---- 
+ Player : Dog rolls 4
+ Player Dog lands on Jail
+ Player Dog is just visiting 
+
+
+ Player : Car rolls 2
+ Player Car lands on Red Street
+ Car pays 20
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Red Street
+ Shoe pays 20
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Grey Road
+ Hat buys Grey Road for œ100
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |  Dog     |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |      Hat |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |      Car |                                                                 |          | Green    
+  Street | Shoe     |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ1020
+ Car has œ1180
+ Shoe has œ1550
+ Hat has œ850
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 9 ---- 
+ Player : Dog rolls 2
+ Player Dog lands on Brown Street
+ Dog buys Brown Street for œ160
+
+ Property Name : Brown Road rent is increased œ20 to œ40
+ Property Name : Brown Street rent is increased œ20 to œ40
+
+ Player : Car rolls 3
+ Player Car lands on Grey Street
+ Car buys Grey Street for œ120
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Bonus
+ Player : Shoe rolls 3
+ Receive a rent rebate. Gain œ100
+ Player Shoe current balance is œ1650
+
+
+ Player : Hat rolls 1
+ Player Hat lands on Grey Street
+ Hat pays 15
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |  Dog     |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |      Car |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |      Hat |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus | Shoe     |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ860
+ Car has œ1075
+ Shoe has œ1650
+ Hat has œ835
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 10 ---- 
+ Player : Dog rolls 3
+ Player Dog lands on Orange Street
+ Dog pays 25
+
+
+ Player : Car rolls 5
+ Player Car lands on Orange Road
+ Car buys Orange Road for œ180
+
+
+ Player : Shoe rolls 5
+ Player Shoe lands on Brown Street
+ Shoe pays 40
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Brown Street
+ Hat pays 40
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |  Dog     |          |          |          
+         |          |          |          |          |      Car |          |          |          | Free     
+    JAIL |          |          | Shoe     |          |          |          |          |          | Parking  
+         |          |          |      Hat |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ915
+ Car has œ920
+ Shoe has œ1610
+ Hat has œ795
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 11 ---- 
+ Player : Dog rolls 3
+ Player Dog lands on Yellow Road
+ Dog pays 30
+
+
+ Player : Car rolls 6
+ Player Car lands on Penalty
+ Player : Car rolls 2
+ Pay your broadband bill. Loose œ50
+ Player Car current balance is œ870
+
+
+ Player : Shoe rolls 5
+ Player Shoe lands on Free Parking
+ Player Shoe is resting 
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Orange Street
+ Hat pays 25
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          | Shoe     | Parking  
+         |          |          |          |          |          |      Hat |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |  Dog     |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |      Car | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ885
+ Car has œ895
+ Shoe has œ1640
+ Hat has œ770
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 12 ---- 
+ Player : Dog rolls 3
+ Player Dog lands on Green Road
+
+
+ Player : Car rolls 6
+ Player Car lands on Blue Way
+
+
+ Player : Shoe rolls 6
+ Player Shoe lands on Go to Jail
+ Player Shoe goes to jail 
+ Player Shoe pays œ50
+
+
+ Player : Hat rolls 4
+ Player Hat lands on Yellow Street
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL | Shoe     |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |      Hat |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |  Dog     |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |      Car |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ885
+ Car has œ895
+ Shoe has œ1590
+ Hat has œ770
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 13 ---- 
+ Player : Dog rolls 3
+ Player Dog lands on Blue Road
+ Dog buys Blue Road for œ300
+
+
+ Player : Car rolls 3
+ Player Car lands on Purple Street
+ Car buys Purple Street for œ420
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Brown Road
+ Shoe pays 40
+
+
+ Player : Hat rolls 4
+ Player Hat lands on Go to Jail
+ Player Hat goes to jail 
+ Player Hat pays œ50
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          | Shoe     |          |          |          |          |          |          | Parking  
+         |      Hat |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |  Dog     |          |        
+         |          |      Car |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ625
+ Car has œ475
+ Shoe has œ1550
+ Hat has œ720
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 14 ---- 
+ Player : Dog rolls 5
+ Player Dog lands on Purple Street
+ Dog pays 50
+
+
+ Player : Car rolls 4
+ Car passes GO and collects œ200 
+ Player Car lands on Bonus
+ Player : Car rolls 6
+ It’s your birthday. Gain œ300
+ Player Car current balance is œ1025
+
+
+ Player : Shoe rolls 5
+ Player Shoe lands on Orange Way
+ Shoe pays 25
+
+
+ Player : Hat rolls 2
+ Player Hat lands on Brown Street
+ Hat pays 40
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          | Shoe     |          | Parking  
+         |          |          |      Hat |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |      Car |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |  Dog     |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ615
+ Car has œ1025
+ Shoe has œ1525
+ Hat has œ705
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 15 ---- 
+ Player : Dog rolls 5
+ Dog passes GO and collects œ200 
+ Player Dog lands on Grey Road
+ Dog pays 15
+
+
+ Player : Car rolls 1
+ Player Car lands on Grey Road
+ Car pays 15
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Free Parking
+ Player Shoe is resting 
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Orange Street
+ Hat pays 25
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          | Shoe     | Parking  
+         |          |          |          |          |          |      Hat |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |  Dog     |                                                                 |          |          
+    Grey |      Car |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ800
+ Car has œ1035
+ Shoe has œ1525
+ Hat has œ710
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 16 ---- 
+ Player : Dog rolls 4
+ Player Dog lands on Brown Street
+
+
+ Player : Car rolls 3
+ Player Car lands on Brown Road
+ Car pays 40
+
+
+ Player : Shoe rolls 6
+ Player Shoe lands on Go to Jail
+ Player Shoe goes to jail 
+ Player Shoe pays œ50
+
+
+ Player : Hat rolls 2
+ Player Hat lands on Free Parking
+ Player Hat is resting 
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |  Dog     |          |          |          |          |          |          
+         |          |      Car |          |          |          |          |          |          | Free     
+    JAIL | Shoe     |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |      Hat |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ840
+ Car has œ995
+ Shoe has œ1475
+ Hat has œ710
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 17 ---- 
+ Player : Dog rolls 3
+ Player Dog lands on Orange Street
+ Dog pays 25
+
+
+ Player : Car rolls 3
+ Player Car lands on Orange Road
+
+
+ Player : Shoe rolls 1
+ Player Shoe lands on Brown Road
+ Shoe pays 40
+
+
+ Player : Hat rolls 6
+ Player Hat lands on Go to Jail
+ Player Hat goes to jail 
+ Player Hat pays œ50
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |  Dog     |          |          |          
+         |          |          |          |          |      Car |          |          |          | Free     
+    JAIL |          | Shoe     |          |          |          |          |          |          | Parking  
+         |      Hat |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ855
+ Car has œ1020
+ Shoe has œ1435
+ Hat has œ660
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 18 ---- 
+ Player : Dog rolls 6
+ Player Dog lands on Green Road
+
+
+ Player : Car rolls 6
+ Player Car lands on Penalty
+ Player : Car rolls 3
+ Visit the SU shop for food. Loose œ100
+ Player Car current balance is œ920
+
+
+ Player : Shoe rolls 6
+ Player Shoe lands on Free Parking
+ Player Shoe is resting 
+
+
+ Player : Hat rolls 3
+ Player Hat lands on Railway Station
+ Hat buys Railway Station for œ200
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |          |          |          |          |          |          |          
+         |          |          |          |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          |          |          | Shoe     | Parking  
+         |          |          |          |      Hat |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |      Car | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |  Dog     |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ855
+ Car has œ920
+ Shoe has œ1435
+ Hat has œ460
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 19 ---- 
+ Player : Dog rolls 2
+ Player Dog lands on Go to Jail
+ Player Dog goes to jail 
+ Player Dog pays œ50
+
+
+ Player : Car rolls 3
+ Player Car lands on Go to Jail
+ Player Car goes to jail 
+ Player Car pays œ50
+
+
+ Player : Shoe rolls 6
+ Player Shoe lands on Go to Jail
+ Player Shoe goes to jail 
+ Player Shoe pays œ50
+
+
+ Player : Hat rolls 4
+ Player Hat lands on Free Parking
+ Player Hat is resting 
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |  Dog     |          |          |          |          |          |          |          |          
+         |      Car |          |          |          |          |          |          |          | Free     
+    JAIL | Shoe     |          |          |          |          |          |          |          | Parking  
+         |          |          |          |          |          |          |          |      Hat |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ805
+ Car has œ870
+ Shoe has œ1385
+ Hat has œ460
+
+ ---------------------------------------------------------------------------------------------------
+			 ---- Round No : 20 ---- 
+ Player : Dog rolls 2
+ Player Dog lands on Brown Street
+
+
+ Player : Car rolls 2
+ Player Car lands on Brown Street
+ Car pays 40
+
+
+ Player : Shoe rolls 5
+ Player Shoe lands on Orange Street
+ Shoe pays 25
+
+
+ Player : Hat rolls 2
+ Player Hat lands on Yellow Street
+
+
+
+                       Brown      Brown                 Orange     Orange     Orange                         
+                       Road       Street    Station      Road      Street      Way                           
+          _______________________________________________________________________________________            
+         |          |          |  Dog     |          |          |          |          |          |          
+         |          |          |      Car |          |          |          |          |          | Free     
+    JAIL |          |          |          |          |          | Shoe     |          |          | Parking  
+         |          |          |          |          |          |          |          |          |          
+         |__________|__________|__________|__________|__________|__________|__________|__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+    Grey |          |                                                                 |          | Yellow   
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |      Hat |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+         |          |                                                                 |          | Penalty  
+   Bonus |          |                           Monopolish                            |          |          
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+  Street |          |                                                                 |          | Road     
+         |          |                                                                 |          |          
+         |__________|                                                                 |__________|                                 
+         |          |                                                                 |          |          
+     Red |          |                                                                 |          | Green    
+    Road |          |                                                                 |          | Street   
+         |          |                                                                 |          |          
+         |__________|_________________________________________________________________|__________|                                 
+         |          |          |          |          |          |          |          |          |        
+         |          |          |          |          |          |          |          |          | GO TO  
+      GO |          |          |          |          |          |          |          |          | Jail   
+         |          |          |          |          |          |          |          |          |        
+         |__________|__________|__________|__________|__________|__________|__________|__________|           
+                       Purple     Purple    Station      Blue       Blue       Blue                          
+                        Road       Road                  Road      Street      Way                           
+
+ ----Current money status of Players---- 
+ Dog has œ845
+ Car has œ855
+ Shoe has œ1360
+ Hat has œ460
+
+
+		     GGGGGGGG           AA        MM          MM  EEEEEEEEE           OOOO     VV          VV  EEEEEEEEE  RRRRRRR        !!    
+		    GG      GG         A  A       MMM        MMM  EE                OO    OO    VV        VV   EE         RR     RR     !!!!   
+		   GG                 A    A      MM MM    MM MM  EE               OO      OO    VV      VV    EE         RR     RR     !!!!   
+		  GGG     GGGGGG     AAAAAAAA     MM  MM  MM  MM  EEEEEE          OOO      OOO    VV    VV     EEEEEE     RRRRRRR        !!    
+		   GG      GG GG    AA      AA    MM   MMMM   MM  EE               OO      OO      VV  VV      EE         RR RR          !!    
+		    GG    GG  GG   AA        AA   MM    MM    MM  EE                OO    OO        VVVV       EE         RR   RR             
+		      GGGGG   GG  AA          AA  MM          MM  EEEEEEEEE           OOOO           VV        EEEEEEEEE  RR     RR      !!    
+
+ ----Final money status of Players---- 
+ Dog has œ845
+ Car has œ855
+ Shoe has œ1360
+ Hat has œ460
+
+ Shoe wins!!
+
+
+
+		 TTTTTTTTTTTT  HH       HH        AA        NN      NN  KK     KK        YY        YY      OOOO      UU         UU   
+		      TT       HH       HH       A  A       NNNN    NN  KK   KK           YY      YY     OO    OO    UU         UU   
+		      TT       HH       HH      A    A      NN NN   NN  KK KK              YY    YY     OO      OO   UU         UU   
+		      TT       HHHHHHHHHHH     AAAAAAAA     NN  NN  NN  KKK                 YYYYYY     OOO      OOO  UU         UU   
+		      TT       HH       HH    AA      AA    NN   NN NN  KK KK                 YY        OO      OO    UU       UU    
+		      TT       HH       HH   AA        AA   NN    NNNN  KK   KK               YY         OO    OO      UU     UU     
+		      TT       HH       HH  AA          AA  NN      NN  KK     KK             YY           OOOO          UUUUU       
+
+	   FFFFFFFFF     OOOO      RRRRRRR          PPPPPPP   LL               AA       YY        YY  IIIIIIIIII   NN      NN     GGGGGGGG       
+	   FF          OO    OO    RR     RR        PP    PP  LL              A  A       YY      YY       II       NNNN    NN    GG      GG      
+	   FF         OO      OO   RR     RR        PP    PP  LL             A    A       YY    YY        II       NN NN   NN   GG               
+	   FFFFF     OOO      OOO  RRRRRRR          PPPPPPP   LL            AAAAAAAA       YYYYYY         II       NN  NN  NN  GGG     GGGGGG    
+	   FF         OO      OO   RR RR            PP        LL           AA      AA        YY           II       NN   NN NN   GG      GG GG    
+	   FF          OO    OO    RR   RR          PP        LL          AA        AA       YY           II       NN    NNNN    GG    GG  GG    
+	   FF            OOOO      RR     RR        PP        LLLLLLLLL  AA          AA      YY       IIIIIIIIII   NN      NN      GGGGG   GG    
+
+
+							 ---- Created by Janith Iresha Peiris ----
+						     ---- UClan ID : G20924165 / UCL ID : 3000305 ----

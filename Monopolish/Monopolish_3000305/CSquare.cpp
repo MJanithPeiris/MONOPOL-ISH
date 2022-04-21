@@ -1,3 +1,5 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
 
 #include "CSquare.h"
 #include <iostream>
@@ -76,15 +78,15 @@ int CSquare::getSColourGroup()
 }
 
 // sets property or station owners' name. derived class method
-void CSquare::setOwnerName(string ownerName)
+void CSquare::setSOwnerName(string ownerName)
 {
 
 }
 
 // returns property or station owners' name. derived class method
-string CSquare::getOwnerName()
+string CSquare::getSOwnerName()
 {
-    return "None";
+    return " ";
 }
 
 // sets go to jail fine. derived class method
@@ -142,13 +144,13 @@ void CSquare::display()
 }
 
 // derived class display method
-void CSquare::display(string playerName)
+void CSquare::displayPayingRentDetails(string playerName)
 {
-	
+    
 }
 
-// derived class display method
-void CSquare::display(string playerName, float playerMoney)
+// display lands square details
+void CSquare::displayPlayerLandsOnDetails(unique_ptr<Player>& player)
 {
-
+    cout << " Player " << player->getPlayerName() << " lands on " << sName << endl;
 }

@@ -1,7 +1,11 @@
+// UClan ID : G20924165 / UCL ID : 3000305
+// M. Janith Iresha Peiris
+
 #include "Player.h"
 #include <iostream>
 #include <string>
 #include "ReadFile.h"
+
 
 using  namespace std;
 
@@ -92,28 +96,10 @@ void Player::displayDieRollDetails(int randomNumber)
     cout << " Player : " << pName << " rolls " << randomNumber << endl;
 }
 
-// display players' position
-void Player::displayPlayerPosition(string propertyName)
-{
-    cout << " Player " << pName << " lands on " << propertyName << endl;
-}
-
-// display player completes a round message
-void Player::displayRoundComplete()
-{
-    cout << " " << pName << " passes GO and collects " << pound << "200 " << endl;
-}
-
-// display player paying rent details
-void Player::displayPayingRentDetails(float propertyRent)
-{
-    cout << " " << pName << " pays " << propertyRent << endl;
-}
-
 // display player buying property details
-void Player::displayBuyingDetails(unique_ptr<FileRead>& file)
+void Player::displayBuyingDetails(c_square& squares)
 {
-    cout <<" " << pName << " buys " << file->getSquare()[pPosition - 1]->getSName() << " for " << pound << file->getSquare()[pPosition - 1]->getSCost() << endl;
+    cout <<" " << pName << " buys " << squares[pPosition - 1]->getSName() << " for " << pound << squares[pPosition - 1]->getSCost() << endl;
 }
 
 // display player mortgage the property details
