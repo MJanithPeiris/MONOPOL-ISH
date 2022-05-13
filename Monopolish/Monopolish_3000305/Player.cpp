@@ -4,7 +4,7 @@
 #include "Player.h"
 #include <iostream>
 #include <string>
-#include "ReadFile.h"
+#include "GameCreator.h"
 
 
 using  namespace std;

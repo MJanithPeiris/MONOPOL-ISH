@@ -27,7 +27,7 @@
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReadFile.cpp">
+    <ClCompile Include="GameCreator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CFreeParking.cpp">
@@ -59,7 +59,7 @@
     <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ReadFile.h">
+    <ClInclude Include="GameCreator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CFreeParking.h">
@@ -78,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CPenalty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monopolish.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

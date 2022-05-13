@@ -147,7 +147,7 @@
     <ClCompile Include="CProperty.cpp" />
     <ClCompile Include="CSquare.cpp" />
     <ClCompile Include="CStation.cpp" />
-    <ClCompile Include="ReadFile.cpp" />
+    <ClCompile Include="GameCreator.cpp" />
     <ClCompile Include="Monopolish.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
@@ -160,7 +160,8 @@
     <ClInclude Include="CProperty.h" />
     <ClInclude Include="CSquare.h" />
     <ClInclude Include="CStation.h" />
-    <ClInclude Include="ReadFile.h" />
+    <ClInclude Include="GameCreator.h" />
+    <ClInclude Include="Monopolish.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

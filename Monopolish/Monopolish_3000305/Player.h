@@ -7,7 +7,7 @@
 #include <vector>
 
 class CSquare;
-class FileRead;
+class GameCreator;
 using namespace std;
 
 const char pound = 156; // pound symbol

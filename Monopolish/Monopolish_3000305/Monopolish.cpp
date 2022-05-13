@@ -3,38 +3,9 @@
 
 #include <iostream>
 #include <Windows.h>
-#include <string>
-#include "Player.h"
-#include "ReadFile.h"
-#include <memory>
+#include "Monopolish.h"
 #define _CRTDBG_MAP_ALLOC
 #include <crtdbg.h>
-
-// function prototyping
-void displayWelcome();
-void displayThankYou();
-void displayGameOver();
-void displayRoundComplete(string playerName);
-void setBoardPosition(unique_ptr<Player>& player1, unique_ptr<Player>& player2, unique_ptr<Player>& player3,
-                      unique_ptr<Player>& player4);
-void displayBoard(string p1[], string p2[], string p3[], string p4[]);
-int random();
-int runGameFlow(c_square& squares, unique_ptr<Player>& player1, unique_ptr<Player>& player2,
-                 unique_ptr<Player>& player3, unique_ptr<Player>& player4, unique_ptr<bool> isRentIncreased[]);
-void handleGameFlow(c_square& squares, unique_ptr<Player>& playerMain, unique_ptr<Player>& subPlayer1,
-                       unique_ptr<Player>& subPlayer2, unique_ptr<Player>& subPlayer3, int pDie);
-void payRent(c_square& squares, unique_ptr<Player>& playerMain, unique_ptr<Player>& subPlayer1,
-    unique_ptr<Player>& subPlayer2, unique_ptr<Player>& subPlayer3, int mainPlayerPosition);
-void buyProperty(c_square& squares, unique_ptr<Player>& playerMain, int mainPlayerPosition);
-void increaseRent(c_square& squares, unique_ptr<Player>& player, unique_ptr<bool> isRentIncreased[]);
-void decreaseRent(c_square& squares, unique_ptr<Player>& player, unique_ptr<bool> isRentIncreased[]);
-bool * checkOwnSameProperties(c_square& squares, unique_ptr<Player>& player1);
-void mortgageProperty(c_square& squares, unique_ptr<Player>& player, unique_ptr<bool> isRentIncreased[]);
-void buyMortgageProperties(c_square& squares, unique_ptr<Player>& player);
-int findMinimumValueProperty(c_square& squares, unique_ptr<Player>& player, bool isSelling);
-int checkWinningPlayerWithoutBankrupt(bool player1, bool player2, bool player3, bool player4);
-void outputFinalWinningPlayer(unique_ptr<Player>& player1, unique_ptr<Player>& player2,
-    unique_ptr<Player>& player3, unique_ptr<Player>& player4);
 
 
 int main()
@@ -50,7 +21,7 @@ int main()
         bool isSeedFileRead = false;
 
         vector<unique_ptr<CSquare>> squares; // CSquare vector of unique pointers
-        unique_ptr<FileRead> monopolishFile = make_unique<FileRead>(); // unique pointer for FileRead
+        unique_ptr<GameCreator> gameCreator = make_unique<GameCreator>(); // unique pointer for GameCreator
         unique_ptr<Player> player1 = make_unique<Player>("Dog", 1500, 1); // unique pointer for player 1
         unique_ptr<Player> player2 = make_unique<Player>("Car", 1500, 1); // unique pointer for player 2
         unique_ptr<Player> player3 = make_unique<Player>("Shoe", 1500, 1); // unique pointer for player 3
@@ -59,13 +30,13 @@ int main()
         cout << endl << "########################################" << endl << endl;
         cout << " // Created by M.Janith Iresha Peiris \n // UClan ID : G20924165 \n // UCL ID : 3000305" << endl << endl;
 
-        if (monopolishFile->readMonopolyTextFile()) // call the read monopoly.txt method. if there is an error in the File opening, then it will give an error message
+        if (gameCreator->readMonopolyTextFile()) // call the read monopoly.txt method. if there is an error in the File opening, then it will give an error message
         {
             cout << " Could not open the File 'monopoly.txt'" << endl;
         }
         else // if monopoly text File read successfully then display the successful message
         {
-            monopolishFile->getSquares(squares);
+            gameCreator->getSquares(squares);
             for (auto& square : squares) // display the read data from MonopolishFile
             {
                 square->display();
@@ -74,7 +45,7 @@ int main()
             isMonopolyFileRead = true;
         }
 
-        if (monopolishFile->readSeedTextFile(seed)) // call the read seed.txt method. if there is an error in the File opening, then it will give an error message
+        if (gameCreator->readSeedTextFile(seed)) // call the read seed.txt method. if there is an error in the File opening, then it will give an error message
         {
             cout << " Could not open the File 'seed.txt'" << endl;
         }
